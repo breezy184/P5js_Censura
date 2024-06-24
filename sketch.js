@@ -4,7 +4,7 @@ var noiseSound;
 let started = false;
 let resW = 720;
 let resH = 540;
-const MIC_VOL_MIN = 0.0
+const MIC_VOL_MIN = 0.05
 const MIC_VOL_AMPL = 5
 
 function setup() {
