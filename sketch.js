@@ -5,7 +5,7 @@ let started = false;
 let resW = 720;
 let resH = 540;
 const MIC_VOL_MIN = 0.05
-const MIC_VOL_AMPL = 10
+const MIC_VOL_AMPL = 25
 
 function setup() {
   createCanvas(resW, resH);
