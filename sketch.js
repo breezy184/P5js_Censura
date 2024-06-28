@@ -25,9 +25,9 @@ function setup() {
 function draw() {
   if (!started) {
     stroke("white");
-    textSize(60)
+    textSize(40)
     textAlign(CENTER)
-    text("click", width/2, height/2);
+    text("Cosa ne pensi delle attuali politiche di governo?", width/2, height/2);
     return;
   }
 
