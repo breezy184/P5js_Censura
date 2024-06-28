@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- impostazioni base e inclusione file principali -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+  <link rel="stylesheet" type="text/css" href="microsito.css">
+  <script src="libraries/effects/p5.sound.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/addons/p5.sound.min.js"></script>
+
+  <!-- informazioni minime per i motori di ricerca -->
+  <title>Noise</title>
+  <meta name="description" content="Installazione audiovisiva interattiva che censura in tempo reale chiunque provi a esprimere le proprie idee." />
+  <!-- informazioni minime per la condivisione sui social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Noise" />
+  <meta property="og:description" content="Installazione audiovisiva interattiva che censura in tempo reale chiunque provi a esprimere le proprie idee." />
+  <meta property="og:url" content="https://editor.p5js.org/breezy184/present/0q39QqgQz" />
+  <meta property="og:image" content="https://preview.p5js.org/breezy184/sketches/0q39QqgQz/preview.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+</head>
+
+<body>
+
+  <!-- informazioni visualizzate al clic sul pulsante (?) -->
+  <div id="pannello-info">
+    <article>
+      <h1>Noise</h1>
+      <p>Albrisi Andrea</p>
+      <hr>
+      <p><i>"Se la libertà significa qualcosa, significa il diritto di dire alla gente ciò che non vuole sentire.""</i></p>
+      <p>Installazione audiovisiva interattiva che censura in tempo reale chiunque provi a esprimere le proprie idee.</p>
+      <p>Interazione: Vocale</p>
+      <hr>
+      <p>Audio: p5js.sound
+      </p>
+      <hr>
+      <p><b>Per approfondire: <a href="readme.html">ReadMe</a></b></p>
+      
+    </article>
+  </div>
+
+  <!-- pulsanti audio e informazioni -->
+  <button id="pulsante-audio" onclick="attivaDisattivaAudio()"><span class="lnr lnr-volume-high"></span></button>
+  <button id="pulsante-info" onclick="apriChiudiInfo()"><span class="lnr lnr-question-circle"></span></button>
+
+  <!-- inclusione altri script e sketch.js -->
+  <script src="microsito.js"></script>
+  <script src="sketch.js"></script>
+
+</body>
+
+</html>
