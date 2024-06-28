@@ -28,9 +28,9 @@ function draw() {
     textSize(25);
     textAlign(CENTER);
     text("Cosa ne pensi delle attuali politiche di governo?", width/2, height/2);
-    textSize(4);
+    textSize(12);
     stroke("grey");
-    text("(Clicca per continuare...)", width/2, height/2);
+    text("(Clicca per continuare...)", width/2, (height/2)-50);
     return;
   }
 
